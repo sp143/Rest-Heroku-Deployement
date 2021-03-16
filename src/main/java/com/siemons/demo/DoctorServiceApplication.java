@@ -16,7 +16,7 @@ public class DoctorServiceApplication {
 
 	@GetMapping("/welcome/{name}")
 	public String wish(@PathVariable String name) {
-		return "Hi " + name + " Welcome to Doctor Service";
+		return "Hi " + name + " Welcome to Doctor Service @Kakinada";
 	}
 
 	public static void main(String[] args) {
